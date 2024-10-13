@@ -31,11 +31,13 @@ Além disso, o sensor possui um modo "Shell", que possibilita conectá-lo a um c
 
 ![Alt text](foto_vistas.png)
 
+### Modelo 3D
+
+[Modelo 3D STEP](./SensorMini_3dmodel.step)
+
 ## Possiveis atualizações de firmware
 
 - Supote ao protocolo I2C (com endereço configuravel)
-- Supote ao protocolo One Wire
-- Ajuste de sensibilidade e filtragem
 
 ## Comparação com outros sensores
 
