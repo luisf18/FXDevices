@@ -1,6 +1,5 @@
 # FXDevices - Dispositivos para Robótica e Automação
-
-Este repositório contém exemplos e documentação de diversos dispositivos da Fox Dynamics, projetados para robótica educacional, competições e automação. Cada seção apresenta detalhes técnicos, exemplos de código, esquemáticos e instruções para uso dos dispositivos. Este repositório serve como um ponto de referência para desenvolvedores, estudantes e entusiastas que trabalham com sistemas embarcados e eletrônicos voltados para automação e controle.
+Este repositório contém exemplos e documentação dos dispositivos da Fox Dynamics, projetados para robótica educacional, competições e automação. Cada seção apresenta detalhes técnicos, exemplos de código, esquemáticos e instruções para uso dos dispositivos. Este repositório serve como um ponto de referência para desenvolvedores, estudantes e entusiastas que trabalham com sistemas embarcados e eletrônicos voltados para automação e controle.
 <!--Sensores, modulos e placas controladoras da Fox Dynamics.-->
 
 ## Índice
