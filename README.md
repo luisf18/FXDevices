@@ -82,6 +82,14 @@ Em breve...
 | Fox Mini | Atmega328 | 2S a 4S | Sim | Não possui | 2 Brushed 3A | Medição de bateria, 8 entradas, receptor IR e IMU (opcional) | Combate Ant ou Beeatle e Mini Sumo e Seguidor |
 | Fox Mini W | ESP32 | 2S a 4S | Sim | WIFI, BLE ou ESPNOW | 2 Brushed 3A | Medição de bateria, 10 entradas, receptor IR e IMU (opcional) | Combate Ant ou Beeatle e Mini Sumo e Seguidor |
 
+# Outras placas
+
+## Conversor Rádio ESPNOW
+
+Conecte este módulo a saida "trainer" PPM de um radio para torna-lo compativel com transmissão ESPNOW.
+
+em breve...
+
 ---   
 
 
