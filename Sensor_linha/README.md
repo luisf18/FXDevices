@@ -2,7 +2,7 @@
 
 Pequeno sensor de linha ideal para robôs de Sumô 3kg, Mini, micro ou nano ou em seguidores de linha, principalmente como sensor de marcação lateral.
 
-![Alt text](imagens\sensor_linha.png)
+![Alt text](imagens/sensor_linha.png)
 
 | Característica         | Valor                 |
 |------------------------|-----------------------|

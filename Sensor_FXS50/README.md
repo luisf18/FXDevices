@@ -4,7 +4,7 @@ Sensor digital de oponentes compacto e rápido, ideal para detectar oponentes em
 
 Além disso, o sensor possui um modo "Shell", que possibilita conectá-lo a um computador através de um conversor USB-Serial. Esse modo permite a leitura de dados e a configuração detalhada dos parâmetros diretamente pelo terminal.
 
-![Alt text](imagens\frente.png)
+![Alt text](imagens/frente.png)
 
 **Video demonstrativo:** ...  
 
@@ -22,11 +22,11 @@ Além disso, o sensor possui um modo "Shell", que possibilita conectá-lo a um c
 
 (*) Em testes chegou a alcançar até 70cm na configuração mais sensivel.  
 
-![Alt text](imagens\vistas_resumo_borda.png)
+![Alt text](imagens/vistas_resumo_borda.png)
 
-![Alt text](imagens\vistas_resumo_cor.png)
+![Alt text](imagens/vistas_resumo_cor.png)
 
-![Alt text](imagens\foto_vistas.png)
+![Alt text](imagens/foto_vistas.png)
 
 ### Modelo 3D
 
@@ -34,7 +34,7 @@ Além disso, o sensor possui um modo "Shell", que possibilita conectá-lo a um c
 
 ## Comparação com outros sensores
 
-![Alt text](imagens\comparando.png)
+![Alt text](imagens/comparando.png)
 
 ## Pinagem
 
@@ -43,7 +43,7 @@ Além disso, o sensor possui um modo "Shell", que possibilita conectá-lo a um c
 - Pino S de saida digital ( HIGH detectado, LOW não detectado )
 - Pino Fox Wire (Configuração e leitura)
 
-![Pinagem](imagens\diagrama_funcional.png)
+![Pinagem](imagens/diagrama_funcional.png)
 
 ## Configuração do sensor
 
@@ -84,21 +84,34 @@ O modo Shell é usado para se comunicar diretamente com o sensor usando comandos
 <img src="imagens\shell_serial_monitor_4.png" alt="Alt text" style="margin-top: 20px;">
 <br>  
 
-6. <span style="color: red;">**Ao final envie o comando "save" para salvar as configurações, caso contrario, ao desligar as alterações são perdidas!**</span>
+> [!NOTE]  
+> Highlights information that users should take into account, even when skimming.
+
+> [!TIP]
+> Optional information to help a user be more successful.
+
+> [!IMPORTANT]  
+> Ao final envie o comando "save" para salvar as configurações, caso contrario, ao desligar as alterações são perdidas!
+
+> [!WARNING]  
+> Critical content demanding immediate user attention due to potential risks.
+
+> [!CAUTION]
+> Negative potential consequences of an action.
 
 ## Diagrama Esquematimo
 
 ### Conexão usando Saida digital Simples
 
-![conexão_dogital](imagens\sch_digital.png)
+![conexão_dogital](imagens/sch_digital.png)
 
 ### Conexão usando Fox Wire
 
-![Alt text](imagens\sch_fox_wire.png)
+![Alt text](imagens/sch_fox_wire.png)
 
 <h3 id="FxSerial">Conexão usando Fox Wire com Conversor USB Serial</h3>
 
-![Alt text](imagens\fx_serial.png)
+![Alt text](imagens/fx_serial.png)
 
 ## Exemplo de código usando a saida digital simples
 
