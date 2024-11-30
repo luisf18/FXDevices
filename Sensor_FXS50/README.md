@@ -63,20 +63,25 @@ Este sensor é configuravel, a tabela abaixo apresenta os principais parâmetros
 O modo Shell é usado para se comunicar diretamente com o sensor usando comandos de texto. Esse modo só permite a comunicação com um unico sensor por vez (Para configurar varios sensores simultaneamente use Fox Wire).
 
 - Conecte o sensor ao computador usando um conversor USB-Serial ou um arduino ([Conexão usando Fox Wire com Conversor USB Serial](#FxSerial)).
-- Abra algum aplicativo de comunicação Serial, como Putty ou o proprio Serial Monitor do Arduino. Configure com baudrate de 115200. No Serial Monitor pode escolher qualquer placa desde que seja a COM correta, por simplicidade selecionei um Arduino.  
-![Alt text](shell_serial_monitor_1.png)
+
+- Abra algum aplicativo de comunicação Serial, como Putty ou o próprio Serial Monitor do Arduino. Configure com baudrate de 115200. No Serial Monitor pode escolher qualquer placa desde que seja a COM correta, por simplicidade selecionei um Arduino.
+<br> <!-- Adiciona espaço extra -->
+<img src="shell_serial_monitor_1.png" alt="Alt text" style="margin-top: 20px;">
 <br>  
 
 - Digite "FOX-SHELL" para o sensor entrar no modo Shell. O sensor irá responder enviando "FOX-SHELL INIT!".  
-![Alt text](shell_serial_monitor_2.png)
+<br> <!-- Adiciona espaço extra -->
+<img src="shell_serial_monitor_2.png" alt="Alt text" style="margin-top: 20px;">
 <br>  
 
 - Com o modo Shell iniciado você pode configurar o sensor ou realizar medições. Digite o comando "help" para exibir a lista de comandos disponiveis.
-![Alt text](shell_serial_monitor_3.png)
+<br> <!-- Adiciona espaço extra -->
+<img src="shell_serial_monitor_3.png" alt="Alt text" style="margin-top: 20px;">
 <br>  
 
 - O comando "dump" exibe os valores de configuração do sensor.
-![Alt text](shell_serial_monitor_4.png)
+<br> <!-- Adiciona espaço extra -->
+<img src="shell_serial_monitor_4.png" alt="Alt text" style="margin-top: 20px;">
 <br>  
 
 - <span style="color: red;">**Ao final envie o comando "save" para salvar as configurações, caso contrario, ao desligar as alterações são perdidas!**</span>
