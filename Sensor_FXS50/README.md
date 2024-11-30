@@ -4,7 +4,7 @@ Sensor digital de oponentes compacto e rápido, ideal para detectar oponentes em
 
 Além disso, o sensor possui um modo "Shell", que possibilita conectá-lo a um computador através de um conversor USB-Serial. Esse modo permite a leitura de dados e a configuração detalhada dos parâmetros diretamente pelo terminal.
 
-![Alt text](foto_frente.png)
+![Alt text](imagens\frente.png)
 
 **Video demonstrativo:** ...  
 
@@ -22,11 +22,11 @@ Além disso, o sensor possui um modo "Shell", que possibilita conectá-lo a um c
 
 (*) Em testes chegou a alcançar até 70cm na configuração mais sensivel.  
 
-![Alt text](vistas_resumo_borda.png)
+![Alt text](imagens\vistas_resumo_borda.png)
 
-![Alt text](vistas_resumo_cor.png)
+![Alt text](imagens\vistas_resumo_cor.png)
 
-![Alt text](foto_vistas.png)
+![Alt text](imagens\foto_vistas.png)
 
 ### Modelo 3D
 
@@ -34,7 +34,7 @@ Além disso, o sensor possui um modo "Shell", que possibilita conectá-lo a um c
 
 ## Comparação com outros sensores
 
-![Alt text](comparando.png)
+![Alt text](imagens\comparando.png)
 
 ## Pinagem
 
@@ -43,7 +43,7 @@ Além disso, o sensor possui um modo "Shell", que possibilita conectá-lo a um c
 - Pino S de saida digital ( HIGH detectado, LOW não detectado )
 - Pino Fox Wire (Configuração e leitura)
 
-![Pinagem](diagrama_funcional.png)
+![Pinagem](imagens\diagrama_funcional.png)
 
 ## Configuração do sensor
 
@@ -62,48 +62,48 @@ Este sensor é configuravel, a tabela abaixo apresenta os principais parâmetros
 
 O modo Shell é usado para se comunicar diretamente com o sensor usando comandos de texto. Esse modo só permite a comunicação com um unico sensor por vez (Para configurar varios sensores simultaneamente use Fox Wire).
 
-- Conecte o sensor ao computador usando um conversor USB-Serial ou um arduino ([Conexão usando Fox Wire com Conversor USB Serial](#FxSerial)).
+1. Conecte o sensor ao computador usando um conversor USB-Serial ou um arduino ([Conexão usando Fox Wire com Conversor USB Serial](#FxSerial)).
 
-- Abra algum aplicativo de comunicação Serial, como Putty ou o próprio Serial Monitor do Arduino. Configure com baudrate de 115200. No Serial Monitor pode escolher qualquer placa desde que seja a COM correta, por simplicidade selecionei um Arduino.
+2. Abra algum aplicativo de comunicação Serial, como Putty ou o próprio Serial Monitor do Arduino. Configure com baudrate de 115200. No Serial Monitor pode escolher qualquer placa desde que seja a COM correta, por simplicidade selecionei um Arduino.
 <br> <!-- Adiciona espaço extra -->
-<img src="shell_serial_monitor_1.png" alt="Alt text" style="margin-top: 20px;">
+<img src="imagens\shell_serial_monitor_1.png" alt="Alt text" style="margin-top: 20px;">
 <br>  
 
-- Digite "FOX-SHELL" para o sensor entrar no modo Shell. O sensor irá responder enviando "FOX-SHELL INIT!".  
+3. Digite "FOX-SHELL" para o sensor entrar no modo Shell. O sensor irá responder enviando "FOX-SHELL INIT!".  
 <br> <!-- Adiciona espaço extra -->
-<img src="shell_serial_monitor_2.png" alt="Alt text" style="margin-top: 20px;">
+<img src="imagens\shell_serial_monitor_2.png" alt="Alt text" style="margin-top: 20px;">
 <br>  
 
-- Com o modo Shell iniciado você pode configurar o sensor ou realizar medições. Digite o comando "help" para exibir a lista de comandos disponiveis.
+4. Com o modo Shell iniciado você pode configurar o sensor ou realizar medições. Digite o comando "help" para exibir a lista de comandos disponiveis.
 <br> <!-- Adiciona espaço extra -->
-<img src="shell_serial_monitor_3.png" alt="Alt text" style="margin-top: 20px;">
+<img src="imagens\shell_serial_monitor_3.png" alt="Alt text" style="margin-top: 20px;">
 <br>  
 
-- O comando "dump" exibe os valores de configuração do sensor.
+5. O comando "dump" exibe os valores de configuração do sensor.
 <br> <!-- Adiciona espaço extra -->
-<img src="shell_serial_monitor_4.png" alt="Alt text" style="margin-top: 20px;">
+<img src="imagens\shell_serial_monitor_4.png" alt="Alt text" style="margin-top: 20px;">
 <br>  
 
-- <span style="color: red;">**Ao final envie o comando "save" para salvar as configurações, caso contrario, ao desligar as alterações são perdidas!**</span>
+6. <span style="color: red;">**Ao final envie o comando "save" para salvar as configurações, caso contrario, ao desligar as alterações são perdidas!**</span>
 
 ## Diagrama Esquematimo
 
 ### Conexão usando Saida digital Simples
 
-![conexão_dogital](sch_digital.png)
+![conexão_dogital](imagens\sch_digital.png)
 
 ### Conexão usando Fox Wire
 
-![Alt text](sch_fox_wire.png)
+![Alt text](imagens\sch_fox_wire.png)
 
 <h3 id="FxSerial">Conexão usando Fox Wire com Conversor USB Serial</h3>
 
-![Alt text](sch_shell.png)
+![Alt text](imagens\fx_serial.png)
 
 ## Exemplo de código usando a saida digital simples
 
 ```c++
-
+// Fox Dynamics Team
 // Codigo simples usando a saida digital
 
 #define SENSOR_PIN 8
@@ -123,7 +123,7 @@ void loop() {
 ---
 
 <p align="center">
-  <img src="LogoFox.png" alt="Logo da Empresa" width="200px">
+  <img src="../LogoFox.png" alt="Logo da Empresa" width="200px">
 </p>
 
 <!--- [Alt text](LogoFox.png) -->
