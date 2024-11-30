@@ -1,71 +1,92 @@
 # FXDevices - Dispositivos para Robótica e Automação
+
 Este repositório contém exemplos e documentação dos dispositivos da Fox Dynamics, projetados para robótica educacional, competições e automação. Cada seção apresenta detalhes técnicos, exemplos de código, esquemáticos e instruções para uso dos dispositivos. Este repositório serve como um ponto de referência para desenvolvedores, estudantes e entusiastas que trabalham com sistemas embarcados e eletrônicos voltados para automação e controle.
 <!--Sensores, modulos e placas controladoras da Fox Dynamics.-->
 
+<!--
 ## Índice
 
 - [Dispositivo 1: Sensor Mini Sumo](#Dispositivo-1:-Sensor-Mini-Sumo)
 - [Dispositivo 2: Módulo Start](#Dispositivo-2:-Módulo-Start)
 - [Dispositivo 3: Sensor de Linha Mini Sumo](#Dispositivo-3:-Sensor-de-linha-mini-sumo)
 - [Dispositivo 4: ESC 2 motores Brushed](#Dispositivo-4:-ESC-2-motores-Brushed)
-
 ---
+-->
 
-## Dispositivo 1: Sensor Mini Sumo
+# Sensores
 
-Este sensor digital de oponentes para robôs de sumô é compacto e rápido, projetado especificamente para detectar oponentes em competições de mini ou micro sumô. Ele oferece uma saída digital simples para detecção imediata e possui uma interface SWIO (Single Wire I/O), que permite a calibração e a comunicação com até 32 sensores usando apenas um único fio, facilitando a integração e o controle em robôs que utilizam muitos sensores.
+## Sensor FX-S50
+
+[Saiba mais sobre](./Sensor_FXS50/README.md)
+
+Sensor digital de oponentes compacto e rápido, ideal para detectar oponentes em competições de mini ou micro sumô. Além de uma saída digital simples para detecção imediata, ele possui um pino para configuração e leitura que permite a conexão com até 32 sensores usando apenas um único fio, facilitando a integração e o controle em robôs que utilizam muitos sensores.
 
 Além disso, o sensor possui um modo "Shell", que possibilita conectá-lo a um computador através de um conversor USB-Serial. Esse modo permite a leitura de dados e a configuração detalhada dos parâmetros diretamente pelo terminal.
 
-![Alt text](./sensor_mini/foto_frente.png)
+![Alt text](Sensor_FXS50/imagens/frente.png)
 
-![Alt text](./sensor_mini/vistas_resumo_borda.png)
+**Video demonstrativo:** ...  
 
-### Funcionalidades:
-- Pequeno: 11,4 x 12,4 x 16,2 mm
-- Ampla Faixa de Detecção: de 3mm até 45cm, podendo alcançar até 70cm na configuração mais sensivel.
-- Configurações Personalizáveis: Sensibilidade, filtragem de ruído e ajuste de brilho configuráveis para otimizar o desempenho.
-- Alta Velocidade: Saída digital com taxa de atualização de 10 KHz.
-- Conexão Simplificada: Use o pino SWIO para conectar até 32 sensores através de um único fio, reduzindo a complexidade da fiação.
-- Comunicação "Single Wire": Permite a configuração do sensor e a leitura de dados por meio de um único fio
-
-[Saiba mais sobre](./sensor_mini)
-
----
-
-## Dispositivo 2: Módulo Start
-
-### Funcionalidades:
-
-[Saiba mais sobre o Leitor de Sensores Remotos](./leitor-de-sensores)
+| Característica         | Valor                 |
+|------------------------|-----------------------|
+| Tipo de sensor         | Obstaculos digital     |
+| Faixa de medição       | 5 a 45cm (*)  |
+| Tensão de operação     | 3,3 a 5V      |
+| Corrente de operação   | 12 a 16mA     |
+| Interface de comunicação | saida digital e Pino Fox Wire |
+| Dimensões                | 11,4 x 12,4 x 16,2 mm    |
+| Peso        | 4,9 g  |
 
 ---
 
-## Dispositivo 3: Sensor de Linha Mini Sumo
+## Sensor de Linha Mini
 
-...
+[Saiba mais sobre](./Sensor_linha/README.md)
 
-### Funcionalidades:
-- 
+Pequeno sensor de linha ideal para robôs de Sumô 3kg, Mini, micro ou nano ou em seguidores de linha, principalmente como sensor de marcação lateral.
 
-[Saiba mais sobre o Módulo de Teste de Circuitos](./modulo-de-teste)
+![Alt text](Sensor_linha/imagens/sensor_linha.png)
 
----
-
-## Dispositivo 4: ESC 2 motores Brushed
-
-...
-
-### Funcionalidades:
-- 
-
-[Saiba mais sobre a Interface UART](./interface-uart)
+| Característica         | Valor                 |
+|------------------------|-----------------------|
+| Tipo de sensor         | sensor de linha analogico  |
+| Tensão de operação     | 3,3 a 5V      |
+| Dimensões                | 8 x 6,5 x 3,3 mm    |
+| Peso        | 0,15 g  |
 
 ---
+
+## Sensor digital TOF
+Em breve...
+
+## Módulo Start
+Em breve...
+
+# ESCs
+
+| ESCs     | Tipo |  Motores | Tensão | Corrente Maxima | sensor |
+|---|---|---|---|---|---|
+| FX-M1 LP | brushed | 1 | 2S | 1,5A | sim |
+| FX-M1 HP | brushed | 1 | 2 a 4S | 3A | sim |
+| FX-M2 LP | brushed | 2 | 2S | 1,5A | sim |
+| FX-M2 HP | brushed | 1 | 2 a 4S | 3A | sim |
+| FX-M1 UHP | brushed | 1 | 2 a 6S | 40A | sim |  
+  
+# Placas Controladoras
+
+| Controladora | Microcontrolador | Tensão | USB | Radio |  Motores | Sensores | Aplicação |
+|---|---|---|---|---|---|---|---|
+| Fox Nano War  | - | 2S | Não | FlySky | 2 Brushed 1,5A | Medição de bateria e IMU (opcional) | Combate Fada ou Ant |
+| Fox Nano  | Atmega328 | 2S | Não | Não possui | 2 Brushed 1,5A | Medição de bateria, 5 entradas, receptor IR (opcinal) e IMU (opcional) | Combate Fada ou Ant |
+| Fox Nano W | ESP32-C3 | 2S | Não | WIFI, BLE ou ESPNOW | 2 Brushed 1,5A | Medição de bateria, 4 entradas, receptor IR (opcinal) e IMU (opcional) | Combate Fada ou Ant e Mini ou Micro Sumo |
+| Fox Mini | Atmega328 | 2S a 4S | Sim | Não possui | 2 Brushed 3A | Medição de bateria, 8 entradas, receptor IR e IMU (opcional) | Combate Ant ou Beeatle e Mini Sumo e Seguidor |
+| Fox Mini W | ESP32 | 2S a 4S | Sim | WIFI, BLE ou ESPNOW | 2 Brushed 3A | Medição de bateria, 10 entradas, receptor IR e IMU (opcional) | Combate Ant ou Beeatle e Mini Sumo e Seguidor |
+
+---   
 
 
 <p align="center">
-  <img src="sensor_mini/LogoFox.png" alt="Logo da Empresa" width="200px">
+  <img src="LogoFox.png" alt="Logo da Empresa" width="200px">
 </p>
 
 <!--- [Alt text](LogoFox.png) -->
