@@ -12,11 +12,11 @@ Além disso, o sensor possui um modo "Shell", que possibilita conectá-lo a um c
 
 | Característica         | Valor                 |
 |------------------------|-----------------------|
-| Tipo de sensor         | Obstaculos digital     |
+| Tipo de sensor         | Obstaculos digital ajustavel    |
 | Faixa de medição       | 0 a 45cm (*)  |
 | Tensão de operação     | 3,3 a 5V      |
 | Corrente de operação   | 12 a 16mA     |
-| Interface de comunicação | saida digital e Pino Fox Wire |
+| Interface de comunicação | Saida digital e pino Fox Wire |
 | Dimensões                | 11,4 x 12,4 x 16,2 mm    |
 | Peso        | 4,9 g  |
 
