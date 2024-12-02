@@ -13,14 +13,14 @@ Além disso, o sensor possui um modo "Shell", que possibilita conectá-lo a um c
 | Característica         | Valor                 |
 |------------------------|-----------------------|
 | Tipo de sensor         | Obstaculos digital     |
-| Faixa de medição       | 5 a 45cm (*)  |
+| Faixa de medição       | 0 a 45cm (*)  |
 | Tensão de operação     | 3,3 a 5V      |
 | Corrente de operação   | 12 a 16mA     |
 | Interface de comunicação | saida digital e Pino Fox Wire |
 | Dimensões                | 11,4 x 12,4 x 16,2 mm    |
 | Peso        | 4,9 g  |
 
-(*) Em testes chegou a alcançar até 70cm na configuração mais sensivel.  
+(*) Medição na configuração padrão. Em testes, chegou a alcançar até 70cm na configuração mais sensivel. Os resultados podem variar em função da cor, inclinação e tamanho do objeto detectado. Ajuste a sensibilidade em função da aplicação.
 
 ![Alt text](imagens/vistas_resumo_borda.png)
 
@@ -99,7 +99,7 @@ O modo Shell é usado para se comunicar diretamente com o sensor usando comandos
 > Conecte apenas um sensor por conexão (para configurar varios simultaneamente use FoxWire)
 
 > [!IMPORTANT]  
-> Ao final envie o comando "save" para salvar as configurações, caso contrario, ao desligar as alterações são perdidas!
+> Ao final envie o comando "save" para salvar as configurações, caso contrário, ao desligar as alterações são perdidas!
 
 ## Diagrama Esquematimo
 

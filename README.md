@@ -64,6 +64,8 @@ Em breve...
 
 # ESCs
 
+em breve...
+
 | ESCs     | Tipo |  Motores | Tensão | Corrente Maxima | sensor |
 |---|---|---|---|---|---|
 | FX-M1 LP | brushed | 1 | 2S | 1,5A | sim |
@@ -71,8 +73,11 @@ Em breve...
 | FX-M2 LP | brushed | 2 | 2S | 1,5A | sim |
 | FX-M2 HP | brushed | 1 | 2 a 4S | 3A | sim |
 | FX-M1 UHP | brushed | 1 | 2 a 6S | 40A | sim |  
+| FX-FOC Mini | Brushless | 1 | 1 a 3S | 3A | sim |  
   
 # Placas Controladoras
+
+em breve...
 
 | Controladora | Microcontrolador | Tensão | USB | Radio |  Motores | Sensores | Aplicação |
 |---|---|---|---|---|---|---|---|
