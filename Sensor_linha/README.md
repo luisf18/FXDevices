@@ -6,7 +6,7 @@ Pequeno sensor de linha ideal para robôs de Sumô 3kg, Mini, micro ou nano ou e
 
 | Característica         | Valor                 |
 |------------------------|-----------------------|
-| Tipo de sensor         | sensor de linha analogico  |
+| Tipo de sensor         | Sensor de linha analógico  |
 | Tensão de operação     | 3,3 a 5V      |
 | Dimensões                | 8 x 6,5 x 3,3 mm    |
 | Peso        | 0,15 g  |

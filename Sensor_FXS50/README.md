@@ -13,7 +13,7 @@ Além disso, o sensor possui um modo "Shell", que possibilita conectá-lo a um c
 | Característica         | Valor                 |
 |------------------------|-----------------------|
 | Tipo de sensor         | Obstaculos digital ajustavel    |
-| Faixa de medição       | 0 a 45cm (*)  |
+| Faixa de medição       | 0 a 50cm (*)  |
 | Tensão de operação     | 3,3 a 5V      |
 | Corrente de operação   | 12 a 16mA     |
 | Interface de comunicação | Saida digital e pino Fox Wire |

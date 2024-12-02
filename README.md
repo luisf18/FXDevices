@@ -29,13 +29,15 @@ Além disso, o sensor possui um modo "Shell", que possibilita conectá-lo a um c
 
 | Característica         | Valor                 |
 |------------------------|-----------------------|
-| Tipo de sensor         | Obstaculos digital     |
-| Faixa de medição       | 5 a 45cm (*)  |
+| Tipo de sensor         | Obstaculos digital ajustavel    |
+| Faixa de medição       | 0 a 50cm (*)  |
 | Tensão de operação     | 3,3 a 5V      |
 | Corrente de operação   | 12 a 16mA     |
-| Interface de comunicação | saida digital e Pino Fox Wire |
+| Interface de comunicação | Saida digital e pino Fox Wire |
 | Dimensões                | 11,4 x 12,4 x 16,2 mm    |
 | Peso        | 4,9 g  |
+
+(*) Medição na configuração padrão. Em testes, chegou a alcançar até 70cm na configuração mais sensivel. Os resultados podem variar em função da cor, inclinação e tamanho do objeto detectado. Ajuste a sensibilidade em função da aplicação.
 
 ---
 
@@ -49,7 +51,7 @@ Pequeno sensor de linha ideal para robôs de Sumô 3kg, Mini, micro ou nano ou e
 
 | Característica         | Valor                 |
 |------------------------|-----------------------|
-| Tipo de sensor         | sensor de linha analogico  |
+| Tipo de sensor         | Sensor de linha analógico  |
 | Tensão de operação     | 3,3 a 5V      |
 | Dimensões                | 8 x 6,5 x 3,3 mm    |
 | Peso        | 0,15 g  |
