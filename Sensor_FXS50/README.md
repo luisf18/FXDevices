@@ -6,7 +6,7 @@ Além disso, o sensor possui um modo "Shell", que possibilita conectá-lo a um c
 
 ![Alt text](imagens/frente.png)
 
-**Video demonstrativo:** ...  
+**Video demonstrativo:** [https://www.youtube.com/watch?v=7ljwJTxrwXw](https://www.youtube.com/watch?v=7ljwJTxrwXw) 
 
 ## Características Técnicas
 
@@ -108,6 +108,8 @@ O modo Shell é usado para se comunicar diretamente com o sensor usando comandos
 ![conexão_dogital](imagens/sch_digital.png)
 
 ### Conexão usando Fox Wire
+
+Repositório FoxWire: [https://github.com/luisf18/FoxWire](https://github.com/luisf18/FoxWire) 
 
 ![Alt text](imagens/sch_fox_wire.png)
 
