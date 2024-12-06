@@ -8,7 +8,7 @@ Além disso, o sensor possui um modo "Shell", que possibilita conectá-lo a um c
 
 **Video demonstrativo:** [https://www.youtube.com/watch?v=7ljwJTxrwXw](https://www.youtube.com/watch?v=7ljwJTxrwXw) 
 
-**Datasheet:** [Datasheet_FXS50](/Datashet_FXS50.pdf) 
+**Datasheet:** [Datasheet_FXS50](/Datashet_FXS_50.pdf) 
 
 ## Características Técnicas
 
