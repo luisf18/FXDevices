@@ -19,13 +19,15 @@ Este repositório contém exemplos e documentação dos dispositivos da Fox Dyna
 
 [Saiba mais sobre](./Sensor_FXS50/README.md)
 
-Sensor digital de oponentes compacto e rápido, ideal para detectar oponentes em competições de mini ou micro sumô. Além de uma saída digital simples para detecção imediata, ele possui um pino para configuração e leitura que permite a conexão com até 32 sensores usando apenas um único fio, facilitando a integração e o controle em robôs que utilizam muitos sensores.
+Sensor digital de obstáculos compacto, rápido e configurável. Possui uma saída digital para detecção imediata, e um pino para configuração ou leitura via protocolo FoxWire, permitindo a conexão  simultânea de até 32 sensores em paralelo (compartilhando o mesmo fio).
 
-Além disso, o sensor possui um modo "Shell", que possibilita conectá-lo a um computador através de um conversor USB-Serial. Esse modo permite a leitura de dados e a configuração detalhada dos parâmetros diretamente pelo terminal.
+Além disso, o sensor possui um modo "Shell", que possibilita conectá-lo a um computador através de um conversor USB-Serial. Esse modo permite a leitura de dados e a configuração detalhada dos parâmetros.
 
 ![Alt text](Sensor_FXS50/imagens/frente.png)
 
-**Video demonstrativo:** ...  
+**Video demonstrativo:** [https://www.youtube.com/watch?v=7ljwJTxrwXw](https://www.youtube.com/watch?v=7ljwJTxrwXw) 
+
+**Datasheet:** [Datasheet_FXS50](Sensor_FXS50/Datashet_FXS50.pdf) 
 
 | Característica         | Valor                 |
 |------------------------|-----------------------|
