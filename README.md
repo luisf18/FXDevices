@@ -60,8 +60,17 @@ Pequeno sensor de linha ideal para robôs de Sumô 3kg, Mini, micro ou nano ou e
 
 ---
 
-## Sensor digital TOF
-Em breve...
+## FXS200 - Sensor digital TOF
+
+[Saiba mais sobre](./Sensor_FXS200)
+
+O **FXS200** é um sensor de distância digital. Ele utiliza o sensor **VL53L0X** e um microcontrolador que otimiza e facilita sua interface, tornando-o muito simples de usar. Pode atuar como sensor de detecção via saída digital ou medir distância e ajustar parâmetros pelo pino **FoxWire**. Isso o torna ideal para robôs de mini sumô.
+
+![Alt text](Sensor_FXS200/FXS200_resumo.png)
+
+
+**Video demonstrativo:** [https://www.youtube.com/shorts/WvjEp0M7mYg](https://www.youtube.com/shorts/WvjEp0M7mYg)
+
 
 ## Módulo Start
 Em breve...
