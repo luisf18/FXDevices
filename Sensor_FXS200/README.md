@@ -1,5 +1,7 @@
 # Sensor FX-S200
 
+_Documentação em desenvolvimento_
+
 **EN:** The **FXS200** is a digital distance sensor. It uses the **VL53L0X** sensor and an embedded microcontroller that optimizes and simplifies its interface, making it very easy to use. It can function as an object detection sensor via digital output or measure distance and adjust parameters through the **FoxWire** pin. This makes it ideal for mini sumo robots.
 
 **PT:** O **FXS200** é um sensor de distância digital. Ele utiliza o sensor **VL53L0X** e um microcontrolador que otimiza e facilita sua interface, tornando-o muito simples de usar. Pode atuar como sensor de detecção via saída digital ou medir distância e ajustar parâmetros pelo pino **FoxWire**. Isso o torna ideal para robôs de mini sumô.
